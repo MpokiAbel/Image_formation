@@ -30,6 +30,10 @@ struct point2d *pinhole_projection(struct point3d *points, float f, int N_v)
     return dpoints;
 }
 
+struct point2d *u_v_projection(){
+    
+}
+
 int main(int argc, char *argv[])
 {
     struct point3d *points;
